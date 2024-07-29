@@ -196,8 +196,6 @@ header div {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 10%;
-    border: 15px solid #FF6D01;
-    background: #FF6D01;
     max-width: 15%;
     margin-left: 42%;
     cursor: pointer;
@@ -211,12 +209,10 @@ header div {
     border: 15px solid #FF6D01;
     background: #FF6D01;
     cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.sec2a:hover {
-    background:#000;
-    border: 15px solid #000;
-}
 
 .sec2a a:hover {
     background: #000;
@@ -231,20 +227,302 @@ header div {
     margin-top: 15%;
     background-image: url(/img/pexels-photo-3894378.jpeg);
     margin-bottom: 5%;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 190px;
 }
 
 .coll {
     background: #fff;
     position: absolute;
     width: 42%;
-    height: 80%;
-    margin-left: 8%;
+    height: 70%;
+    margin-left: 4%;
     padding: 20px;
     padding-left: 50px;
-    margin-top: 32%;
+    margin-top: 30%;
+    padding-bottom: 0;
 }
 
 .coll h6 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.coll img {
+    width: 15%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* section4 starts here */
+
+.sec4 {
+    background-color: #fff;
+    margin-top: 5%;
+}
+
+.right{
+    text-align: left;
+    font-size: 18px;
+    color: #999;
+    width: 42%;
+    margin-left: 50%;
+    line-height: 1.5;
+    font-weight: light;
+    margin-bottom: 2%;
+}
+
+.holder {
+    display: inline-block;
+    width: 100%;
+}
+
+.hold1 {
+    width: auto;
+    height: auto;
+}
+
+.hold1 img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid #FF6D01;
+}
+
+.hold2 {
+    width: auto;
+    height: auto;
+    background: #F2F2F2;
+    padding: 35px 90px;
+}
+
+.hold2 img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid #FF6D01;
+}
+
+.holding1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 17%;
+    margin-right: 13% ;
+}
+
+.holding2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 12%;
+    margin-right: 18%;
+    margin-top: 2%;
+}
+
+.hold1 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.hold2 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.left {
+    color: #999;
+    text-align: left;
+    font-size: 18px;
+    color: #999;
+    width: 40%;
+    margin-left: 8%;
+    margin-top: 2%;
+    line-height: 1.5;
+    font-weight: light;
+    margin-bottom: 2%;
+}
+
+.bcg {
+    background-color: #000;
+    width: 100%;
+    display: block;
+    height: 95vh;
+}
+
+.one {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.two {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.podcast {
+    text-align: center;
+}
+
+.podcast p {
+    color: #ede9e9;
+    font-size: 19px;
+    width: 80%;
+    line-height: 1.6;
+}
+
+.podcast h2 {
+    color: #FF6D01;
+    width: 80%;
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+/*  section 5 begins here */
+
+.sec5 {
+    background: #fff;
+    margin-top: 5%;
+}
+
+.sec5_div {
+    display: inline-flex;
+    width: 100%;
+}
+
+.welcome {
+    width: auto;
+    margin-left: 10%;
+}
+
+.welcome h3 {
+    font-size: 42px; 
+    color: #333;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.deliver {
+    color: #FF6D01;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+.anc {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 22px solid #FF6D01;
+    background: #FF6D01;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.anc:hover {
+    background: #000;
+    border: 22px solid #000;
+}
+
+.article {
+    margin-top: 20%;
+    width: 68%;
+    color: #999;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.imgdiv {
+   width: 90%;
+   height: 30%;
+   margin-right: 10%;
+   margin-left: -12%;
+   margin-top: 1%;
+}
+
+.imgdiv img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.bcg2 {
+    background: #000;
+    display: inline-flex;
+    margin-top: 6%;
+    padding: 80px;
+    padding-bottom: 130px;
+}
+
+.raheem {
+    width: 34em;
+    height: 34em;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+.raheem img {
+    width: 100%;
+    border-radius: 50%;
+    border: 22px solid #FF6D01;
+    height: 100%;
+    object-fit: cover;
+}
+
+.who {
+    width: 40%;
+    margin-left: 8%;
+}
+
+.who h3 {
+    color: #fff;
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.deliver2 {
+    color: #FF6D01;
+    width: 85%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+.article2 {
+    width: 90%;
+    color: #ede9e9;
+    font-size: 18px;
+    line-height: 2.3;
+}
+
+.who img {
+    width: 15%;
+}
+
+/* section 6 starts here */
+
+.sec6 {
+    display: block;
+}
+
+.background {
+    object-fit: cover;
 }
